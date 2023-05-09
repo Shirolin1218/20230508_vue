@@ -31,7 +31,12 @@ const router = createRouter({
       path: '/props',
       name: 'Props',
       component: () => import('../views/Props.vue')
-    }
+    },
+    {
+      path: '/emit',
+      name: 'Emit',
+      component: () => import('../views/Emit.vue')
+    },
 
   ]
 })

@@ -14,6 +14,7 @@ export default {
             <RouterLink to="/about" class="link">前往About.vue</RouterLink>
             <RouterLink to="/v-for" class="link">前往VFor.vue</RouterLink>
             <RouterLink to="/props" class="link">前往Props.vue</RouterLink>
+            <RouterLink to="/emit" class="link">前往Emit.vue</RouterLink>
 
         </div>
     </header>
